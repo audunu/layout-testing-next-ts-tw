@@ -9,39 +9,57 @@ interface ChildProps {
   headerContentWidth: any
 }
 
+<<<<<<< HEAD
 function Header({ headerStyle }: ChildProps) {
+=======
+function Header({ headerStyle, headerContentWidth }: ChildProps) {
+>>>>>>> parent of 38299e7... header and footer in grid
   const toggleMenu = useMenuUpdate()
   const { width: windowWidth } = useWindowSize()
   const isMobile = windowWidth! < 1024
-  let navigation: any
+  let navigation
 
   if (!isMobile) {
     navigation = (
+      
       <nav>
-        <Link href='/'>
+        <Link href="/">
           <a>Home</a>
-        </Link>
-        <Link href='/about'>
+        </Link>{' '}
+        |{' '}
+        <Link href="/about">
           <a>About</a>
-        </Link>
-        <Link href='/users'>
+        </Link>{' '}
+        |{' '}
+        <Link href="/users">
           <a>Users List</a>
-        </Link>
-        <a href='/api/users'>Users API</a>
+        </Link>{' '}
+        | <a href="/api/users">Users API</a>
       </nav>
+    
+    
     )
   } else {
-    navigation = <MenuIcon className='h-6 w-6 cursor-pointer' onClick={toggleMenu} />
+    navigation = <MenuIcon className="h-6 w-6 cursor-pointer" onClick={toggleMenu} />
   }
 
   return (
     <div className={headerStyle}>
+<<<<<<< HEAD
       <div className={`flex justify-between items-center`}>
         <Link href='./'>
           <a className='flex justify-center text-lg'>
             <img className='w-8 h-8 mb-2' src='/logo.svg'></img>
             <div className='flex items-center'>
               <p className='text-[#F80066] font-bold'>PT</p>
+=======
+      <div className={`${headerContentWidth} flex justify-between items-center`}>
+        <Link href="./">
+          <a className="flex justify-center text-lg">
+            <img className="w-8 h-8 mb-2" src="/logo.svg"></img>
+            <div className="flex items-center">
+              <p className="text-[#F80066] font-bold">PT</p>
+>>>>>>> parent of 38299e7... header and footer in grid
               <p>match</p>
             </div>
           </a>

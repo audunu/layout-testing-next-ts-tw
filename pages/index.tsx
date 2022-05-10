@@ -6,12 +6,17 @@ import ThirdElement from '../components/ThirdElement'
 import FourthElement from '../components/FourthElement'
 
 const IndexPage = () => (
-  <>
-    {/* <SomeElement />
-    <AnotherElement />
-    <ThirdElement />
-    <FourthElement /> */}
-  </>
+
+  <Grid>
+    
+    
+    <SomeElement/>
+    <AnotherElement/>
+    <ThirdElement/>
+    <FourthElement/>
+    
+
+  </Grid>
 )
 
 export default IndexPage
