@@ -6,25 +6,21 @@ import Header from './Header'
 
 type Props = {
   children?: ReactNode
-  title?: string
+  footerStyle: any
+  headerStyle: any
 }
 
-const Layout = ({ children, title, footerStyle, footerContentWidth, headerStyle, headerContentWidth }: Props) => (
+const Layout = ({ children, footerStyle, headerStyle }: Props) => (
   <div>
     <Head>
-      <title>{title}</title>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <title>Test</title>
+      <meta charSet='utf-8' />
+      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
-    <Header
-      headerStyle={headerStyle}
-      headerContentWidth={headerContentWidth}></Header>
-    
-   
+    <Header headerStyle={headerStyle}></Header>
+
     {children}
-    <Footer
-      footerStyle = {footerStyle}
-      footerContentWidth = {footerContentWidth}></Footer>
+    <Footer footerStyle={footerStyle} footerContentWidth={footerContentWidth}></Footer>
   </div>
 )
 
