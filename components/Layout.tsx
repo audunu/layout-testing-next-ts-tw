@@ -3,28 +3,34 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Footer from './Footer'
 import Header from './Header'
+import Grid from '../components/Grid'
+import BehindFooter from '../components/BehindFooter'
+import BehindHeader from '../components/BehindHeader'
 
 type Props = {
   children?: ReactNode
   title?: string
+  footerStyle: any
+  footerContentWidth: any
+  headerStyle: any
+  headerContentWidth: any
 }
 
 const Layout = ({ children, title, footerStyle, footerContentWidth, headerStyle, headerContentWidth }: Props) => (
   <div>
     <Head>
       <title>{title}</title>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta charSet='utf-8' />
+      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
-    <Header
-      headerStyle={headerStyle}
-      headerContentWidth={headerContentWidth}></Header>
-    
-   
-    {children}
-    <Footer
-      footerStyle = {footerStyle}
-      footerContentWidth = {footerContentWidth}></Footer>
+    <Grid>
+      <BehindHeader />
+      <Header headerStyle={headerStyle} headerContentWidth={headerContentWidth}></Header>
+
+      {children}
+      <BehindFooter />
+      <Footer footerStyle={footerStyle} footerContentWidth={footerContentWidth}></Footer>
+    </Grid>
   </div>
 )
 
