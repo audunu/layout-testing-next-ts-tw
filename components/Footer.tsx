@@ -15,6 +15,7 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
         <div>
           <div className={`flex justify-between items-center -ml-1`}>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Link href='./'>
               <a className='flex justify-center text-lg'>
                 <img className='w-8 h-8 mb-2' src='/logo.svg'></img>
@@ -22,17 +23,23 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
                   <p className='text-[#F80066] text-xl font-bold'>PT</p>
                   <p className='text-xl'>match</p>
 =======
+=======
+>>>>>>> parent of 38299e7... header and footer in grid
             <Link href="./">
               <a className="flex justify-center text-lg">
                 <img className="w-8 h-8 mb-2" src="/logo.svg"></img>
                 <div className="flex items-center ">
                   <p className="text-[#F80066] text-xl font-bold">PT</p>
                   <p className="text-xl">match</p>
+<<<<<<< HEAD
+>>>>>>> parent of 38299e7... header and footer in grid
+=======
 >>>>>>> parent of 38299e7... header and footer in grid
                 </div>
               </a>
             </Link>
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <div className=''>
             <p className='text-sm w-[300px]'>
@@ -44,6 +51,8 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
               <Link href='/kontakt-oss'>
                 <a className='ml-2 text-sm hover:underline'>Kontakt oss</a>
 =======
+=======
+>>>>>>> parent of 38299e7... header and footer in grid
           <div className="">
             <p className="text-sm w-[300px]">
               Vi matcher deg med en PT som møter dine behov med tanke på pris, kompetanse og bosted. Tjenesten
@@ -54,12 +63,16 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
               <ChatAltIcon className="w-5" />
               <Link href="/kontakt-oss">
                 <a className="ml-2 text-sm hover:underline">Kontakt oss</a>
+<<<<<<< HEAD
+>>>>>>> parent of 38299e7... header and footer in grid
+=======
 >>>>>>> parent of 38299e7... header and footer in grid
               </Link>
             </div>
           </div>
         </div>
         <div>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <p className='font-bold text-lg mb-6 mt-6 md:mt-0'>Diverse</p>
           <ul className='flex flex-col gap-6'>
@@ -77,6 +90,8 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
               <Link href='/'>
                 <a className='hover:underline'>Finn en PT nå</a>
 =======
+=======
+>>>>>>> parent of 38299e7... header and footer in grid
           <p className="font-bold text-lg mb-6 mt-6 md:mt-0">Diverse</p>
           <ul className="flex flex-col gap-6">
             <li>
@@ -92,12 +107,16 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
             <li>
               <Link href="/">
                 <a className="hover:underline">Finn en PT nå</a>
+<<<<<<< HEAD
+>>>>>>> parent of 38299e7... header and footer in grid
+=======
 >>>>>>> parent of 38299e7... header and footer in grid
               </Link>
             </li>
           </ul>
         </div>
         <div>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <p className='font-bold text-lg mb-6 mt-6 md:mt-0'>Artikler</p>
           <ul className='flex flex-col gap-6'>
@@ -120,6 +139,8 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
               <Link href='/artikler'>
                 <a className='hover:underline'>Alle artikler</a>
 =======
+=======
+>>>>>>> parent of 38299e7... header and footer in grid
           <p className="font-bold text-lg mb-6 mt-6 md:mt-0">Artikler</p>
           <ul className="flex flex-col gap-6">
             <li>
@@ -140,12 +161,16 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
             <li>
               <Link href="/artikler">
                 <a className="hover:underline">Alle artikler</a>
+<<<<<<< HEAD
+>>>>>>> parent of 38299e7... header and footer in grid
+=======
 >>>>>>> parent of 38299e7... header and footer in grid
               </Link>
             </li>
           </ul>
         </div>
         <div>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <p className='font-bold text-lg mb-6 mt-6 md:mt-0'>Juridisk</p>
           <ul className='flex flex-col gap-6'>
@@ -166,6 +191,8 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
               <Link href='/cookie-erklaring'>
                 <a className='hover:underline'>Cookie-erklæring</a>
 =======
+=======
+>>>>>>> parent of 38299e7... header and footer in grid
           <p className="font-bold text-lg mb-6 mt-6 md:mt-0">Juridisk</p>
           <ul className="flex flex-col gap-6">
             <li className="flex">
@@ -184,6 +211,9 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
               <SearchIcon className="w-6 mr-2" />
               <Link href="/cookie-erklaring">
                 <a className="hover:underline">Cookie-erklæring</a>
+<<<<<<< HEAD
+>>>>>>> parent of 38299e7... header and footer in grid
+=======
 >>>>>>> parent of 38299e7... header and footer in grid
               </Link>
             </li>
@@ -191,7 +221,13 @@ function Footer({ footerStyle, footerContentWidth }: ChildProps) {
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <p className='absolute bottom-2 text-sm border-t-[1px] p-4'>PTmatch er drevet av Briwide AS - org.nr 89473499</p>
+=======
+      <p className="absolute bottom-2 text-sm border-t-[1px] p-4">
+        PTmatch er drevet av Briwide AS - org.nr 89473499
+      </p>
+>>>>>>> parent of 38299e7... header and footer in grid
 =======
       <p className="absolute bottom-2 text-sm border-t-[1px] p-4">
         PTmatch er drevet av Briwide AS - org.nr 89473499
