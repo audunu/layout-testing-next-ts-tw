@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const router = useRouter()
   const headerStyle = `absolute top-0 h-[60px] w-full flex justify-center text-white z-30 ${
     router.asPath === '/' ? '' : 'bg-[#403A6C] shadow-lg'
@@ -28,6 +29,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       router.asPath === '/' ? '' : 'bg-[#403A6C] shadow-lg'
     }`
 
+=======
+    const router = useRouter()
+    const headerStyle = `absolute top-0 h-[60px] w-full flex justify-center text-white z-30 ${
+      router.asPath === '/' ? '' : 'bg-[#403A6C] shadow-lg'
+    }`
+
+>>>>>>> parent of 38299e7... header and footer in grid
 
     return (
         <Layout
@@ -45,6 +53,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         </Layout>
     )
+<<<<<<< HEAD
+>>>>>>> parent of 38299e7... header and footer in grid
+=======
 >>>>>>> parent of 38299e7... header and footer in grid
 }
 

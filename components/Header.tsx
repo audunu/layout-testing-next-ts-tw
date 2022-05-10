@@ -11,7 +11,11 @@ interface ChildProps {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function Header({ headerStyle }: ChildProps) {
+=======
+function Header({ headerStyle, headerContentWidth }: ChildProps) {
+>>>>>>> parent of 38299e7... header and footer in grid
 =======
 function Header({ headerStyle, headerContentWidth }: ChildProps) {
 >>>>>>> parent of 38299e7... header and footer in grid
@@ -51,6 +55,7 @@ function Header({ headerStyle, headerContentWidth }: ChildProps) {
     <div className={headerStyle}>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className={`flex justify-between items-center`}>
         <Link href='./'>
           <a className='flex justify-center text-lg'>
@@ -60,6 +65,8 @@ function Header({ headerStyle, headerContentWidth }: ChildProps) {
 =======
 =======
 >>>>>>> parent of 38299e7... header and footer in grid
+=======
+>>>>>>> parent of 38299e7... header and footer in grid
       <div className={`${headerContentWidth} flex justify-between items-center`}>
         <Link href="./">
           <a className="flex justify-center text-lg">
@@ -67,6 +74,9 @@ function Header({ headerStyle, headerContentWidth }: ChildProps) {
             <div className="flex items-center">
               <p className="text-[#F80066] font-bold">PT</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 38299e7... header and footer in grid
+=======
 >>>>>>> parent of 38299e7... header and footer in grid
 =======
 >>>>>>> parent of 38299e7... header and footer in grid
