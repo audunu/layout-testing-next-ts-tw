@@ -4,7 +4,12 @@ import { MenuIcon } from '@heroicons/react/solid'
 import { useMenuUpdate } from '../contexts/menu-context'
 import useWindowSize from '../utils/windowSize'
 
-function Header() {
+interface ChildProps {
+  headerStyle: any
+  headerContentWidth: any
+}
+
+function Header({ headerStyle }: ChildProps) {
   const toggleMenu = useMenuUpdate()
   const { width: windowWidth } = useWindowSize()
   const isMobile = windowWidth! < 1024
@@ -30,14 +35,14 @@ function Header() {
   }
 
   return (
-    <div className='row-start-1 col-span-full xl:col-start-3 xl:col-end-11 h-[60px] bg-black w-full flex justify-center text-white z-30'>
-      <div className='w-full flex justify-between items-center'>
+    <div className={headerStyle}>
+      <div className={`flex justify-between items-center`}>
         <Link href='./'>
           <a className='flex justify-center text-lg'>
             <img className='w-8 h-8 mb-2' src='/logo.svg'></img>
             <div className='flex items-center'>
-              <p className='text-[#F80066] font-bold'>NEW</p>
-              <p>site</p>
+              <p className='text-[#F80066] font-bold'>PT</p>
+              <p>match</p>
             </div>
           </a>
         </Link>

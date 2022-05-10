@@ -9,28 +9,21 @@ import BehindHeader from '../components/BehindHeader'
 
 type Props = {
   children?: ReactNode
-  title?: string
   footerStyle: any
-  footerContentWidth: any
   headerStyle: any
-  headerContentWidth: any
 }
 
-const Layout = ({ children, title, footerStyle, footerContentWidth, headerStyle, headerContentWidth }: Props) => (
+const Layout = ({ children, footerStyle, headerStyle }: Props) => (
   <div>
     <Head>
-      <title>{title}</title>
+      <title>Test</title>
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
-    <Grid>
-      <BehindHeader />
-      <Header headerStyle={headerStyle} headerContentWidth={headerContentWidth}></Header>
+    <Header headerStyle={headerStyle}></Header>
 
-      {children}
-      <BehindFooter />
-      <Footer footerStyle={footerStyle} footerContentWidth={footerContentWidth}></Footer>
-    </Grid>
+    {children}
+    <Footer footerStyle={footerStyle} footerContentWidth={footerContentWidth}></Footer>
   </div>
 )
 
