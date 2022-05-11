@@ -1,7 +1,7 @@
 import React from 'react'
 
 function SomeElement() {
-  return <div className='bg-green-400 row-start-2 col-start-2 col-end-6 md:col-start-4 md:col-end-7'>SomeElement</div>
+  return <div className='bg-green-400 row-start-1 row-span-2 col-start-1 col-span-6'>SomeElement</div>
 }
 
 export default SomeElement

@@ -3,14 +3,10 @@ import { ChatAltIcon } from '@heroicons/react/solid'
 import { InformationCircleIcon } from '@heroicons/react/solid'
 import { SearchIcon } from '@heroicons/react/solid'
 
-interface ChildProps {
-  footerStyle: any
-  footerContentWidth: any
-}
 
 function Footer() {
   return (
-    <footer className='fixed bottom-0 left-0 right-0 xl:left-40 xl:right-40 bg-[#403A6C] text-white md:flex justify-between'>
+    <footer className='static w-screen xl:w-[78%] bg-[#403A6C] text-white md:flex justify-between pr-4 pl-4 pt-2 pb-2'>
       <div>
         <div className={`flex justify-between items-center`}>
           <Link href='./'>
