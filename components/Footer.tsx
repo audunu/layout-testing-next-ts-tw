@@ -8,9 +8,9 @@ interface ChildProps {
   footerContentWidth: any
 }
 
-function Footer({ footerStyle, footerContentWidth }: ChildProps) {
+function Footer() {
   return (
-    <footer className='col-span-full xl:col-start-3 xl:col-end-11 row-start-2 bg-[#403A6C] text-white md:flex justify-between'>
+    <footer className='fixed bottom-0 left-0 right-0 xl:left-40 xl:right-40 bg-[#403A6C] text-white md:flex justify-between'>
       <div>
         <div className={`flex justify-between items-center`}>
           <Link href='./'>

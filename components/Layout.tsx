@@ -16,21 +16,24 @@ type Props = {
   headerContentWidth: any
 }
 
-const Layout = ({ children, title, footerStyle, footerContentWidth, headerStyle, headerContentWidth }: Props) => (
-  <div>
-    <Head>
-      <title>{title}</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-    </Head>
-    <Grid>
-      <BehindHeader />
-      <Header headerStyle={headerStyle} headerContentWidth={headerContentWidth}></Header>
-
-      {children}
-      <BehindFooter />
-      <Footer footerStyle={footerStyle} footerContentWidth={footerContentWidth}></Footer>
-    </Grid>
+const Layout = ({ children, title }: Props) => (
+  <div className='flex flex-col items-center h-screen overflow-scroll'>
+    
+      <Head>
+        <title>{title}</title>
+        <meta charSet='utf-8' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      </Head>
+      <Header></Header>
+      <div className='xl:fixed xl:left-40 xl:right-40 border-4'>
+        <Grid>
+          {children}
+        </Grid>
+      </div>
+    
+    
+      <Footer></Footer>
+    
   </div>
 )
 

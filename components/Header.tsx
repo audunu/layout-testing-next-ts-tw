@@ -30,7 +30,7 @@ function Header() {
   }
 
   return (
-    <div className='row-start-1 col-span-full xl:col-start-3 xl:col-end-11 h-[60px] bg-black w-full flex justify-center text-white z-30'>
+    <div className='fixed top-0 left-0 right-0 xl:left-40 xl:right-40 h-[60px] bg-black flex justify-center text-white z-30'>
       <div className='w-full flex justify-between items-center'>
         <Link href='./'>
           <a className='flex justify-center text-lg'>

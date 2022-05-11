@@ -7,10 +7,10 @@ import FourthElement from '../components/FourthElement'
 
 const IndexPage = () => (
   <>
-    {/* <SomeElement />
+    <SomeElement />
     <AnotherElement />
     <ThirdElement />
-    <FourthElement /> */}
+    <FourthElement />
   </>
 )
 
