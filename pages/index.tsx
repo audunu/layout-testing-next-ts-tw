@@ -6,15 +6,18 @@ import ThirdElement from '../components/ThirdElement'
 import FourthElement from '../components/FourthElement'
 import FifthElement from '../components/FifthElement'
 import SixthElement from '../components/SixthElement'
+import Hero from '../components/Hero'
+
 
 const IndexPage = () => (
   <>
+    <Hero />
     <SomeElement />
     <AnotherElement />
     <ThirdElement />
     <FourthElement />
-    <FifthElement/>
-    <SixthElement/>
+    <FifthElement />
+    <SixthElement />
   </>
 )
 

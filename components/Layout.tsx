@@ -17,7 +17,7 @@ type Props = {
 }
 
 const Layout = ({ children, title }: Props) => (
-  <div className='flex flex-col items-center h-screen overflow-scroll'>
+  <div className='box-border flex flex-col items-center h-screen overflow-scroll'>
     
       <Head>
         <title>{title}</title>
@@ -25,13 +25,11 @@ const Layout = ({ children, title }: Props) => (
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header></Header>
-      <div className='xl:w-[78%] border-4 mb-[20px] mt-[20px]'>
+      <div className='xl:w-[78%]'>
         <Grid>
           {children}
         </Grid>
       </div>
-    
-    
       <Footer></Footer>
     
   </div>

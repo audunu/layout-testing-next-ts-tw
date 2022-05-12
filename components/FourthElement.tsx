@@ -2,7 +2,7 @@ import React from 'react'
 
 function FourthElement() {
   return (
-    <div className='bg-blue-400 row-start-2 row-span-2 col-start-7 col-span-6'>
+    <div className='text-white border row-start-2 row-span-2 col-start-7 col-span-6'>
       FourthElement Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus id neque ea at consequuntur
       dignissimos sint unde velit cumque! Quas velit quibusdam laudantium dicta, dignissimos quos consectetur cum quo.
       Id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quia recusandae at veritatis autem, eum,
