@@ -3,7 +3,8 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Footer from './Footer'
 import Header from './Header'
-import Grid from '../components/Grid'
+import GridContainer from './GridContainer'
+import FlexContainer from './FlexContainer'
 import BehindFooter from '../components/BehindFooter'
 import BehindHeader from '../components/BehindHeader'
 
@@ -17,7 +18,7 @@ type Props = {
 }
 
 const Layout = ({ children, title }: Props) => (
-  <div className='box-border flex flex-col items-center h-screen overflow-scroll'>
+  <div className='box-border flex flex-col items-center h-screen'>
     
       <Head>
         <title>{title}</title>
@@ -25,10 +26,10 @@ const Layout = ({ children, title }: Props) => (
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header></Header>
-      <div className='xl:w-[78%]'>
-        <Grid>
+      <div className='md:w-[100%] xl:w-[78%]'>
+        <GridContainer>
           {children}
-        </Grid>
+        </GridContainer>
       </div>
       <Footer></Footer>
     

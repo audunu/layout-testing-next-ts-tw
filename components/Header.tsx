@@ -12,7 +12,7 @@ function Header() {
 
   if (!isMobile) {
     navigation = (
-      <nav>
+      <nav className='flex gap-[10px]'>
         <Link href='/'>
           <a>Home</a>
         </Link>
@@ -30,14 +30,14 @@ function Header() {
   }
 
   return (
-    <div className='static w-screen xl:w-[78%] h-[60px] bg-black text-white pr-4 pl-4'>
+    <div className='text-black static w-screen xl:w-[78%] h-[60px] text-white pr-4 pl-4'>
       <div className='w-full flex justify-between items-center'>
         <Link href='./'>
           <a className='flex justify-center text-lg'>
             <img className='w-8 h-8 mb-2' src='/logo.svg'></img>
             <div className='flex items-center'>
-              <p className='text-[#F80066] font-bold'>NEW</p>
-              <p>site</p>
+              <p className='text-[#F80066] font-bold'>Dating</p>
+              <p>siden</p>
             </div>
           </a>
         </Link>

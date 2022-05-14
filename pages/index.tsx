@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Grid from '../components/Grid'
-import SomeElement from '../components/SomeElement'
+import Grid from '../components/GridContainer'
+import MobilePhotos from '../components/MobilePhotos'
 import AnotherElement from '../components/AnotherElement'
 import ThirdElement from '../components/ThirdElement'
 import FourthElement from '../components/FourthElement'
@@ -12,12 +12,12 @@ import Hero from '../components/Hero'
 const IndexPage = () => (
   <>
     <Hero />
-    <SomeElement />
+    <MobilePhotos />
     <AnotherElement />
     <ThirdElement />
     <FourthElement />
-    <FifthElement />
-    <SixthElement />
+}    {/* <FifthElement />
+    <SixthElement /> */}
   </>
 )
 

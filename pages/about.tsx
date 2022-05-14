@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import Grid from '../components/Grid'
+import Grid from '../components/GridContainer'
 
 const AboutPage = () => (
   
