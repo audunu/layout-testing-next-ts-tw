@@ -26,7 +26,7 @@ const Layout = ({ children, title }: Props) => (
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header></Header>
-      <div className='md:w-[1024px] xl:w-[1024px]'>
+      <div className='w-[1024px]'>
         <GridContainer>
           {children}
         </GridContainer>

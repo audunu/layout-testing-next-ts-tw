@@ -20,7 +20,7 @@
         justify-content: center;
         grid-row: 9 / 10;
         grid-column: 5 / 7;
-        align-self: center;
+        align-self: end;
         text-align: center;
         background-color: green;
         border-radius: 1rem;
