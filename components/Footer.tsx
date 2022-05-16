@@ -6,7 +6,7 @@ import { SearchIcon } from '@heroicons/react/solid'
 
 function Footer() {
   return (
-    <footer className='static w-screen xl:w-[78%] bg-[#403A6C] text-white md:flex justify-between pr-4 pl-4 pt-2 pb-2'>
+    <footer className='static w-[1024px] bg-[#403A6C] text-white flex justify-between pr-4 pl-4 pt-2 pb-2'>
       <div>
         <div className={`flex justify-between items-center`}>
           <Link href='./'>

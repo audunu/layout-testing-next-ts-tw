@@ -30,7 +30,7 @@ function Header() {
   }
 
   return (
-    <div className='text-black static w-screen xl:w-[78%] h-[60px] text-white pr-4 pl-4'>
+    <div className='text-black static w-[1024px] xl:w-[1024px] h-[60px] text-white pr-4 pl-4'>
       <div className='w-full flex justify-between items-center'>
         <Link href='./'>
           <a className='flex justify-center text-lg'>
