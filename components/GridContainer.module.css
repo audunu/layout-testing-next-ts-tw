@@ -18,9 +18,9 @@
     .button {
         display: flex;
         justify-content: center;
-        grid-row: 9 / 10;
+        grid-row: 9 / 11;
         grid-column: 5 / 7;
-        align-self: end;
+        align-self: center;
         text-align: center;
         background-color: green;
         border-radius: 1rem;

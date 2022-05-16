@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function Hero() {
-  return <div className='fixed top-0 left-0 h-screen w-screen z-[-1]'>
+  return <div className='md:fixed md:top-0 md:left-0 md:h-screen md:w-[1800px] z-[-1]'>
       <video autoPlay loop muted className="">
           <source src="/backgroundvid.mp4" type="video/mp4" />
         </video>
