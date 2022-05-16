@@ -16,8 +16,8 @@ function Header() {
         <Link href='/'>
           <a>Home</a>
         </Link>
-        <Link href='/about'>
-          <a>About</a>
+        <Link href='/kontakt'>
+          <a>Kontakt</a>
         </Link>
         <Link href='/users'>
           <a>Users List</a>
