@@ -17,7 +17,7 @@ type Props = {
 }
 
 const Layout = ({ children, title }: Props) => (
-  <div className='box-border flex flex-col items-center h-screen'>
+  <div className='box-border flex flex-col items-center w-12/12 border-4'>
     
       <Head>
         <title>{title}</title>

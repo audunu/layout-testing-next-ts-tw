@@ -30,7 +30,7 @@ function Header() {
   }
 
   return (
-    <div className='text-black w-screen  border-4static xl:w-[1024px] h-[60px] text-white pr-4 pl-4'>
+    <header className='flex text-black static xl:w-[1024px] h-[60px] w-screen text-white pr-4 pl-4'>
       <div className='w-full flex justify-between items-center'>
         <Link href='./'>
           <a className='flex justify-center text-lg'>
@@ -43,7 +43,7 @@ function Header() {
         </Link>
         {navigation}
       </div>
-    </div>
+    </header>
   )
 }
 

@@ -14,10 +14,11 @@ const IndexPage = () => (
     
     <Heading />
     
-    
+    <div className='md:flex self-center'>
     <MobilePhotos />
     <Circle />
-    
+    </div>
+
     <Button />
     
     
