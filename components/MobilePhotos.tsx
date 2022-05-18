@@ -3,8 +3,8 @@ import {HeroVideo} from 'react-hero-video'
 import styles from './GridContainer.module.css'
 
 function MobilePhotos() {
-  return <div className={`${styles.test} relative row-start-4 row-span-4 col-start-3 col-span-3`}>
-    <img src="/mobiles1.png" alt="" className="absolute w-[250px] right-0"/>
+  return <div className={`self-center mb-10 relative h-[200px] w-[200px]`}>
+    <img src="/mobiles1.png" alt="" className="absolute w-[250px]"/>
     
     
   </div>

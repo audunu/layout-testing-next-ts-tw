@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Grid from '../components/GridContainer'
+import Grid from '../components/FlexContainer'
 import MobilePhotos from '../components/MobilePhotos'
 import Circle from '../components/Circle'
 import Hero from '../components/Hero'
@@ -10,9 +10,14 @@ import Button from '../components/Button'
 const IndexPage = () => (
   <>
     <Hero />
+    
+    
     <Heading />
+    
+    
     <MobilePhotos />
     <Circle />
+    
     <Button />
     
     

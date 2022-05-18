@@ -1,11 +1,14 @@
 import React from 'react'
-import styles from './GridContainer.module.css'
+
 
 function Button() {
-  return <div className={`${styles.button} row-start-10 col-start-5 col-span-2`}>
+
+  return <div className={`flex content-center self-center text-center bg-green-400 rounded-2 h-[50px] text-white`}>
    <button>Vis alle tjenester</button>
 
   
+
+
   
   </div>
 }

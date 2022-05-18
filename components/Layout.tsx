@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Footer from './Footer'
 import Header from './Header'
-import GridContainer from './GridContainer'
 import FlexContainer from './FlexContainer'
 import BehindFooter from '../components/BehindFooter'
 import BehindHeader from '../components/BehindHeader'
@@ -26,11 +25,11 @@ const Layout = ({ children, title }: Props) => (
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header></Header>
-      <div className='md:w-[1024px] xl:w-[1024px]'>
-        <GridContainer>
+      
+        <FlexContainer>
           {children}
-        </GridContainer>
-      </div>
+        </FlexContainer>
+      
       <Footer></Footer>
     
   </div>
