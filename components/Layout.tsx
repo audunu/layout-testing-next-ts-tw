@@ -4,20 +4,19 @@ import Head from 'next/head'
 import Footer from './Footer'
 import Header from './Header'
 import FlexContainer from './FlexContainer'
-import BehindFooter from '../components/BehindFooter'
-import BehindHeader from '../components/BehindHeader'
+
 
 type Props = {
   children?: ReactNode
   title?: string
-  footerStyle: any
-  footerContentWidth: any
-  headerStyle: any
-  headerContentWidth: any
+  footerStyle?: any
+  footerContentWidth?: any
+  headerStyle?: any
+  headerContentWidth?: any
 }
 
 const Layout = ({ children, title }: Props) => (
-  <div className='box-border flex flex-col items-center w-12/12 border-4'>
+  <div className='box-border flex flex-col items-center w-12/12'>
     
       <Head>
         <title>{title}</title>

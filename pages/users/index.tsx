@@ -5,7 +5,7 @@ import { User } from '../../interfaces'
 import { sampleUserData } from '../../utils/sample-data'
 import Layout from '../../components/Layout'
 import List from '../../components/List'
-import Grid from '../../components/GridContainer'
+import FlexContainer from '../../components/FlexContainer'
 
 type Props = {
   items: User[]
@@ -13,7 +13,7 @@ type Props = {
 
 const WithStaticProps = ({ items }: Props) => (
   
-    <Grid>
+    <FlexContainer>
       <div className='row-start-2 border'>
       <h1>Users List</h1>
       <p>
@@ -27,7 +27,7 @@ const WithStaticProps = ({ items }: Props) => (
         </Link>
       </p>
       </div>
-    </Grid >
+    </FlexContainer >
   
 )
 
